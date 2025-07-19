@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pivot.dir/src/main.cpp.o CMakeFiles/pivot.dir/src/database.cpp.o CMakeFiles/pivot.dir/src/dns_fetcher.cpp.o CMakeFiles/pivot.dir/src/exporter.cpp.o -o pivot  /usr/lib/x86_64-linux-gnu/libsqlite3.so
