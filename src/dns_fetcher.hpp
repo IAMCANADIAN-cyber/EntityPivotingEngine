@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include "ares.h"
 
 class DnsFetcher {
 public:
@@ -12,8 +13,7 @@ public:
     void resolve(const std::string& domain);
 
 private:
-    // c-ares channel
-    void* channel_;
+    ares_channel channel_;
 };
 
 #endif // DNS_FETCHER_HPP
